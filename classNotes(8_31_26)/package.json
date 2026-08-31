@@ -1,5 +1,17 @@
 {
-  "dependencies": {
+  "name": "sass-notes",
+  "version": "1.0.0",
+  "description": "This is for sass notes / project",
+  "license": "ISC",
+  "author": "Jason L.",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+
+  "devDependencies": {
     "sass": "^1.103.1"
   }
 }
