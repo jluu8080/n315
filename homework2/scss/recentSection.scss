@@ -1,0 +1,56 @@
+.recentSection
+{
+    .recentSectionHeader
+    {
+        display:flex;
+        justify-content: space-between;
+
+        p
+        {
+            margin-top:12px;
+            margin-right:95px;
+        }
+    }
+
+    .recentCard
+    {
+        width: 150px;
+
+        border: 1px solid black;
+        border-radius:15px;
+
+        .recentCardContent
+        {
+            padding-top:10px;
+            padding-left:15px;
+
+            .languageHolder
+            {
+                width:50%;
+                border:1px solid black;
+                border-radius:50px;
+                text-align: center;
+
+                .language
+                {
+                    margin:0;
+                    padding:2px;
+                }
+            }
+
+            p
+            {
+                margin-top:10px;
+            }
+        }
+
+        .stats
+        {
+            padding-top:12px;
+            display:flex;
+            justify-content: space-around;
+
+            border-top: 1px solid black;
+        }
+    }
+}

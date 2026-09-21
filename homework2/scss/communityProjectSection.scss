@@ -1,0 +1,50 @@
+.communityProjectSection
+{
+    .communityProjectHeader
+    {
+        text-align: center;
+    }
+
+    .communityProjectCard
+    {
+        background-color:lightsalmon;
+        
+        border-radius: 10px;
+        border:1px solid black;
+
+
+        width: 350px;
+        min-height: 150px;
+
+        padding-top:10px;
+        padding-left:20px;
+        padding-right:20px;
+
+        .communityProjectCardTitle
+        {
+            display:flex;
+            justify-content: space-between;
+
+            h3
+            {
+                margin-top:2px;
+            }
+        }
+
+        .ratingAmt
+        {
+            display:flex;
+
+            p
+            {
+                margin-top:5px;
+            }
+        }
+
+        .communityProjectCardContent
+        {
+            max-width: 100ch;
+        }
+
+    }
+}

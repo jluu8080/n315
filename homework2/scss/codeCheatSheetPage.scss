@@ -1,0 +1,78 @@
+.codeCheatSheetSection
+{
+    .codeCheatSheetHeader
+    {
+        display:flex;
+    }
+
+    .codeCheatSheetDiv
+    {
+        margin-right: 25%;
+        p
+        {
+            max-width: 100ch;
+        }
+    }
+
+    .cheatSheetDiv
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p
+        {
+            max-width: 50ch;
+        }
+
+        .createButton
+        {
+            width: 100px;
+            height: 25px;
+            text-align: center;
+            
+            background-color: green;
+            border-radius: 50px;
+
+            p
+            {
+                margin:0;
+                font-size: 24px;
+                color:white;
+            }
+        }
+    }
+
+    .cheatSheetSearch
+    {
+        display:flex;
+        
+        input
+        {
+            width: 400px;
+            height: 40px;
+
+            margin-right: 25px;
+        }
+
+        .recentLanguages
+        {
+            padding-bottom:20px;
+
+            .languageHolder
+            {
+                width:50%;
+                border:1px solid black;
+                border-radius:50px;
+                text-align: center;
+
+                .language
+                {
+                    margin:0;
+                    padding:2px;
+                }
+            }
+        }
+    }
+}

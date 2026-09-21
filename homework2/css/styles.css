@@ -1,0 +1,621 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+#app section {
+  padding-top: 24px;
+  padding-left: 100px;
+  border-top: 1px solid black;
+  padding-bottom: 25px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightblue;
+}
+header nav .imageHolder {
+  display: flex;
+}
+header nav .imageHolder #home {
+  margin-left: 8px;
+}
+header nav a {
+  margin-top: 24px;
+  color: black;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.welcomeSection {
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+.welcomeSection h1 {
+  font-size: 40px;
+}
+.welcomeSection .welcomeContent {
+  background-color: lightcoral;
+  margin-left: 40px;
+}
+.welcomeSection .welcomeContent p {
+  text-align: center;
+  font-size: 18px;
+  max-width: 52ch;
+}
+.welcomeSection .welcomeContent input {
+  width: 25%;
+  height: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+.welcomeSection .welcomeContent .stats {
+  background-color: lightblue;
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.recentSection .recentSectionHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.recentSection .recentSectionHeader p {
+  margin-top: 12px;
+  margin-right: 95px;
+}
+.recentSection .recentCard {
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.recentSection .recentCard .recentCardContent {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.recentSection .recentCard .recentCardContent .languageHolder {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 50px;
+  text-align: center;
+}
+.recentSection .recentCard .recentCardContent .languageHolder .language {
+  margin: 0;
+  padding: 2px;
+}
+.recentSection .recentCard .recentCardContent p {
+  margin-top: 10px;
+}
+.recentSection .recentCard .stats {
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid black;
+}
+
+.popularSection .languagesDiv {
+  background-color: plum;
+}
+.popularSection .languagesDiv .popularCard {
+  background-color: palegreen;
+  height: 100px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.popularSection .languagesDiv .popularCard .languageHolder {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 50px;
+  text-align: center;
+}
+.popularSection .languagesDiv .popularCard .languageHolder .language {
+  margin: 0;
+  padding: 2px;
+}
+.popularSection .languagesDiv .popularCard p {
+  margin: 0;
+  font-size: 21px;
+}
+
+.communityProjectSection .communityProjectHeader {
+  text-align: center;
+}
+.communityProjectSection .communityProjectCard {
+  background-color: lightsalmon;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 350px;
+  min-height: 150px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.communityProjectSection .communityProjectCard .communityProjectCardTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.communityProjectSection .communityProjectCard .communityProjectCardTitle h3 {
+  margin-top: 2px;
+}
+.communityProjectSection .communityProjectCard .ratingAmt {
+  display: flex;
+}
+.communityProjectSection .communityProjectCard .ratingAmt p {
+  margin-top: 5px;
+}
+.communityProjectSection .communityProjectCard .communityProjectCardContent {
+  max-width: 100ch;
+}
+
+.studySection {
+  display: flex;
+}
+.studySection .studyDesc {
+  background-color: greenyellow;
+  width: 50%;
+}
+.studySection .studyDesc h1 {
+  font-size: 40px;
+}
+.studySection .studyDesc p {
+  font-size: 18px;
+  max-width: 80ch;
+}
+.studySection .musicSponserDiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightcoral;
+}
+.studySection .musicSponserDiv h2 {
+  max-width: 17ch;
+  text-align: center;
+}
+.studySection .musicSponserDiv .lofiGirlLogoHolder {
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-image: url("../images/lofiGirlLogo.webp");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.codersRoomSection p {
+  max-width: 100ch;
+}
+.codersRoomSection h2 {
+  margin: 0;
+}
+.codersRoomSection .roomsDiv {
+  background-color: lightcoral;
+  display: flex;
+}
+.codersRoomSection .roomsDiv .generalRoomDiv {
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+  height: 250px;
+  margin-right: 250px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.codersRoomSection .roomsDiv .generalRoomDiv .viewerCount {
+  display: flex;
+  justify-content: flex-end;
+}
+.codersRoomSection .roomsDiv .generalRoomDiv .joinBtnDiv {
+  background-color: green;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 36%;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+}
+.codersRoomSection .roomsDiv .languageSpecRoomDiv {
+  background-color: lightgray;
+}
+.codersRoomSection .roomsDiv .languageSpecRoomDiv .languageSpecRoomList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.codersRoomSection .roomsDiv .languageSpecRoomDiv .languageSpecRoomList .languageSpecCard {
+  background-color: gainsboro;
+  border: 1px solid black;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+.codersRoomSection .roomsDiv .languageSpecRoomDiv .languageSpecRoomList .languageSpecCard .languageText {
+  margin: 0;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 75px;
+}
+.codersRoomSection .roomsDiv .languageSpecRoomDiv .languageSpecRoomList .languageSpecCard p {
+  margin: 0px;
+  margin-top: 1px;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  margin-top: 4px;
+  margin-right: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.__red {
+  background-color: red;
+}
+
+.__yellow {
+  background-color: yellow;
+}
+
+.__orange {
+  background-color: orange;
+}
+
+.learnSection p {
+  max-width: 100ch;
+}
+.learnSection .courseDiv {
+  margin-bottom: 20px;
+}
+.learnSection .courseDiv .courseHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.learnSection .courseDiv .courseHeader p {
+  margin-top: 12px;
+  margin-right: 95px;
+}
+.learnSection .courseDiv .courseCard {
+  width: 200px;
+  min-height: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+}
+.learnSection .problemsDiv .problemsHeader,
+.learnSection .problemsDiv .problem {
+  width: 500px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  align-items: center;
+}
+.learnSection .problemsDiv .problemsHeader {
+  background-color: lightgreen;
+}
+.learnSection .problemsDiv .problemsList .checkMark {
+  display: flex;
+  align-items: center;
+}
+.learnSection .problemsDiv .problemsList .checkMark p {
+  margin: 0;
+}
+
+.codeCheatSheetSection .codeCheatSheetHeader {
+  display: flex;
+}
+.codeCheatSheetSection .codeCheatSheetDiv {
+  margin-right: 25%;
+}
+.codeCheatSheetSection .codeCheatSheetDiv p {
+  max-width: 100ch;
+}
+.codeCheatSheetSection .cheatSheetDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.codeCheatSheetSection .cheatSheetDiv p {
+  max-width: 50ch;
+}
+.codeCheatSheetSection .cheatSheetDiv .createButton {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  background-color: green;
+  border-radius: 50px;
+}
+.codeCheatSheetSection .cheatSheetDiv .createButton p {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+.codeCheatSheetSection .cheatSheetSearch {
+  display: flex;
+}
+.codeCheatSheetSection .cheatSheetSearch input {
+  width: 400px;
+  height: 40px;
+  margin-right: 25px;
+}
+.codeCheatSheetSection .cheatSheetSearch .recentLanguages {
+  padding-bottom: 20px;
+}
+.codeCheatSheetSection .cheatSheetSearch .recentLanguages .languageHolder {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 50px;
+  text-align: center;
+}
+.codeCheatSheetSection .cheatSheetSearch .recentLanguages .languageHolder .language {
+  margin: 0;
+  padding: 2px;
+}
+
+.mostUsedPage .mostUsedPageHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.mostUsedPage .mostUsedPageHeader p {
+  margin-top: 12px;
+  margin-right: 95px;
+}
+
+.codeCheatSheetSection {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+.codeCheatSheetSection .codeCheatSheetDiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.codeCheatSheetSection .codeCheatSheetDiv p {
+  max-width: 80ch;
+}
+.codeCheatSheetSection .codeCheatSheetDiv input {
+  width: 80%;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding-left: 15px;
+  font-size: 16px;
+}
+.codeCheatSheetSection .cheatSheetDiv {
+  width: 35%;
+}
+.codeCheatSheetSection .cheatSheetDiv .builder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.codeCheatSheetSection .cheatSheetDiv .builder p {
+  max-width: 50ch;
+}
+.codeCheatSheetSection .cheatSheetDiv .builder .createBtn {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 4px 20px;
+}
+.codeCheatSheetSection .cheatSheetDiv .builder .createBtn p {
+  margin: 0;
+}
+.codeCheatSheetSection .cheatSheetDiv .recentLanguages .pillList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.codeCheatSheetSection .cheatSheetDiv .recentLanguages .pill {
+  margin: 0;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 2px 14px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 100px;
+}
+.sectionHeader p {
+  margin: 0;
+}
+
+.sheetCard {
+  width: 350px;
+  border: 1px solid black;
+  border-left: 6px solid black;
+  border-radius: 0 10px 10px 0;
+  padding: 12px 15px;
+}
+.sheetCard p {
+  margin: 0;
+}
+.sheetCard .sheetTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.sheetCard .sheetTitle .circle {
+  margin-top: 0;
+}
+.sheetCard .sheetTitle .rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.sheetCard .sheetStats {
+  color: #555;
+}
+.sheetCard .author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-top: 1px solid black;
+  margin-top: 12px;
+  padding-top: 10px;
+}
+.sheetCard .author img {
+  border-radius: 50%;
+}
+
+.mostUsedSection .sheetTitle {
+  justify-content: flex-start;
+}
+
+.__htmlBorder {
+  border-left-color: orange;
+}
+
+.__jsBorder {
+  border-left-color: gold;
+}
+
+.documentationHeader p {
+  max-width: 100ch;
+}
+
+.docsSection {
+  display: flex;
+  gap: 40px;
+}
+.docsSection p {
+  margin: 0;
+}
+.docsSection .languagePill {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 4px 12px;
+}
+.docsSection .docsSidebar {
+  width: 280px;
+  padding-right: 20px;
+  border-right: 1px solid black;
+}
+.docsSection .docsSidebar .tocTitle {
+  margin-bottom: 10px;
+}
+.docsSection .docsSidebar .languagePill {
+  margin-bottom: 16px;
+}
+.docsSection .docsSidebar .languagePicker {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.docsSection .docsSidebar .languagePicker input {
+  width: 100%;
+  height: 28px;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding-left: 10px;
+  margin-bottom: 12px;
+}
+.docsSection .docsSidebar .languagePicker .pickerTitle {
+  margin-bottom: 8px;
+}
+.docsSection .docsSidebar .languagePicker .languageItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.docsSection .docsSidebar .languagePicker .browseAll {
+  border-top: 1px solid black;
+  padding-top: 8px;
+  text-align: center;
+}
+.docsSection .docsSidebar h2 {
+  margin-bottom: 10px;
+}
+.docsSection .docsSidebar .contentList {
+  border: 1px solid black;
+}
+.docsSection .docsSidebar .contentList .contentItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-bottom: 1px solid black;
+}
+.docsSection .docsSidebar .contentList .contentItem:last-child {
+  border-bottom: none;
+}
+.docsSection .docsSidebar .contentList .active {
+  background-color: lightblue;
+}
+.docsSection .docsContent {
+  flex: 1;
+}
+.docsSection .docsContent .docsContentHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.docsSection .docsContent h2 {
+  margin-bottom: 10px;
+}
+.docsSection .docsContent > p {
+  max-width: 80ch;
+  margin-bottom: 20px;
+}
+.docsSection .docsContent .codeBlock {
+  max-width: 600px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+.docsSection .docsContent .codeBlock pre {
+  background-color: #f4f4f4;
+  padding: 12px;
+  margin: 10px 0;
+  overflow-x: auto;
+}
+.docsSection .docsContent .codeBlock .copyBtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+  margin-left: auto;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 4px 12px;
+}

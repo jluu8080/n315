@@ -1,0 +1,160 @@
+.codeCheatSheetSection
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+
+    .codeCheatSheetDiv
+    {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        p
+        {
+            max-width: 80ch;
+        }
+
+        input
+        {
+            width: 80%;
+            height: 35px;
+            border: 1px solid black;
+            border-radius: 50px;
+            padding-left: 15px;
+            font-size: 16px;
+        }
+    }
+
+    .cheatSheetDiv
+    {
+        width: 35%;
+
+        .builder
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 20px;
+
+            p
+            {
+                max-width: 50ch;
+            }
+
+            .createBtn
+            {
+                border: 1px solid black;
+                border-radius: 50px;
+                padding: 4px 20px;
+
+                p
+                {
+                    margin: 0;
+                }
+            }
+        }
+
+        .recentLanguages
+        {
+            .pillList
+            {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .pill
+            {
+                margin: 0;
+                border: 1px solid black;
+                border-radius: 50px;
+                padding: 2px 14px;
+            }
+        }
+    }
+}
+
+.sectionHeader
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+
+    p
+    {
+        margin: 0;
+    }
+}
+
+.sheetCard
+{
+    width: 350px;
+    border: 1px solid black;
+    border-left: 6px solid black;
+    border-radius: 0 10px 10px 0;
+    padding: 12px 15px;
+
+    p
+    {
+        margin: 0;
+    }
+
+    .sheetTitle
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        .circle
+        {
+            margin-top: 0;
+        }
+
+        .rating
+        {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+    }
+
+    .sheetStats
+    {
+        color: #555;
+    }
+
+    .author
+    {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-top: 1px solid black;
+        margin-top: 12px;
+        padding-top: 10px;
+
+        img
+        {
+            border-radius: 50%;
+        }
+    }
+}
+
+.mostUsedSection .sheetTitle
+{
+    justify-content: flex-start;
+}
+
+.__htmlBorder
+{
+    border-left-color: orange;
+}
+
+.__jsBorder
+{
+    border-left-color: gold;
+}

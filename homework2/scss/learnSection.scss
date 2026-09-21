@@ -1,0 +1,67 @@
+.learnSection
+{
+    p
+    {
+        max-width: 100ch;
+    }
+
+    .courseDiv
+    {
+        margin-bottom: 20px;
+        .courseHeader
+        {
+            display:flex;
+            justify-content: space-between;
+            p
+            {
+                margin-top:12px;
+                margin-right:95px;
+            }
+        }
+
+        .courseCard
+        {
+            width: 200px;
+            min-height: 100px;
+            border: 1px solid black;
+            border-radius: 10px;
+
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+
+            padding-left: 15px;
+        }
+    }
+
+    .problemsDiv
+    {
+        .problemsHeader,
+        .problem
+        {
+            width: 500px;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            align-items: center;
+        }
+
+        .problemsHeader
+        {
+            background-color: lightgreen;
+        }
+
+        .problemsList
+        {
+            .checkMark
+            {
+                display: flex;
+                align-items: center;
+
+                p
+                {
+                    margin:0;
+                }
+            }
+        }
+    }
+}

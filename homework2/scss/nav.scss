@@ -1,0 +1,28 @@
+header
+{
+    nav
+    {
+        display:flex;
+        justify-content:space-around;
+        background-color:lightblue;
+        
+        .imageHolder
+        {
+            display:flex;
+
+            #home
+            {
+                margin-left:8px;
+            }
+        }
+
+        a
+        {
+            margin-top: 24px;
+
+            color:black;
+            font-size:21px;
+            text-decoration: none;
+        }
+    }
+}

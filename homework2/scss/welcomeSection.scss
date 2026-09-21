@@ -1,0 +1,49 @@
+
+.welcomeSection
+{
+    background-color:greenyellow;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-bottom:1px solid black;
+
+    h1
+    {
+        font-size: 40px;
+    }
+
+    .welcomeContent
+    {
+        background-color:lightcoral;
+        margin-left: 40px;
+
+        p
+        {
+            text-align: center;
+            font-size:18px;
+            max-width: 52ch;
+        }
+
+        input
+        {
+            width:25%;
+            height: 25px;
+
+            font-size:16px;
+            text-align: center;
+
+        }
+
+        .stats
+        {
+            background-color: lightblue;
+            width:25%;
+
+            display:flex;
+            justify-content: space-around;
+
+        }
+    }
+}
