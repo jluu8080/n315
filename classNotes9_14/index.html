@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC Start</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" id="home">HOME</a>
+            <a href="#" id="about">ABOUT</a>
+            <a href="#" id="contact">CONTACT</a>
+            <a href="#" id="services">SERVICES</a>
+        </nav>
+    </header>
+
+    <!-- Data gets injected into this div -->
+    <div id="app">
+        
+        <!-- //block -->
+        <div class="card">
+            <!-- //element, every element has two underscores to style it -->
+            <img class="card__image" src="images/images.jpg" alt="something">
+
+            <!-- //element -->
+            <h2 class="card__title">Todd Shelton</h2>
+
+            <!-- //element -->
+            <p class="card__text">Web Intructor for n315</p>
+            
+            <!-- //element -->
+            <button class="card__button card__button--primary">Learn More</button>
+        </div>
+
+        <!-- //block -->
+        <div class="card">
+            <!-- //element, every element has two underscores to style it -->
+            <img class="card__image" src="images/images.jpg" alt="something">
+
+            <!-- //element -->
+            <h2 class="card__title">Todd Shelton</h2>
+
+            <!-- //element -->
+            <p class="card__text">Web Intructor for n315</p>
+            
+            <!-- //element -->
+            <button class="card__button card__button--secondary">Learn More</button>
+        </div>
+    </div>
+
+    <div id="callback">
+        <button id="loadDataBtn">Load Data</button>
+    </div>
+
+    <script type="module" src="app/app.js"></script>
+</body>
+</html>
+
+<!-- defer is a keyword that ensures the whole page is loaded before the script could run
+defer is placed in script tags -->
+
+<!-- type="module" tells the javascript that we're gonna import some things into the javascript and defer is already added to it but adding defer wouldn't hurt to do so though -->

@@ -1,0 +1,15 @@
+{
+  "name": "classnotes9_14",
+  "version": "1.0.0",
+  "description": "MVC & BEM  Practice",
+  "author": "Jason Luu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.104.1"
+  }
+}

@@ -1,0 +1,352 @@
+@import "structure.scss";
+@import "nav.scss";
+@import "card.scss";
+
+// <main>
+//     <section class="welcomeSection">
+//         <div>
+//             <h1>Welcome To Coder's Paradise</h1>
+            
+//             <p></p>
+//             <p></p>
+            
+//             <div class="SearchBar"></div>
+
+//             <div>
+//                 <p># Courses</p>
+
+//                 <p># Languages</p>
+//             </div>
+//         </div>
+//     </section>
+
+    // <section class="recentSection">
+    //     <div>
+    //         <h1>Pick up where you left off</h1>
+    //         <p>All my Recents</p>
+    //     </div>
+
+    //     <div class="recentCard">
+    //         <div>
+    //             <p>Python</p>
+    //         </div>
+
+    //         <p>Intro 1.</p>
+
+    //         <div>
+    //             <p>4 of 9</p>
+    //             <p>50%</p>
+    //         </div>
+    //     </div>
+    // </section>
+
+
+//     <section class="popularSection">
+//         <div>
+//             <h3>Languages</h3>
+
+//             <div class="popularCard">
+//                 <p>Java</p>
+
+//                 <div class="circle"></div>
+
+//                 <p>149 Courses</p>
+//             </div>
+//         </div>
+
+//         <div>
+//             <h3>Courses</h3>
+
+//             <div>
+//                 <div>
+//                     <p>1</p>
+                    
+//                     <div>
+//                         <p>Java</p>
+//                     </div>
+
+//                     <p>Intro 1</p>
+
+//                     <p>14k Leaners</p>
+//                 </div>
+//             </div>
+//         </div?>
+//     </section>
+
+//     <section class="communityProjectSection">
+//         <div>
+//             <h1>Community Projects</h1>
+//         </div>
+
+//         <div class="communityProjectCard">
+//             <div>
+//                 <h4>Cyberdeck</h4>
+                
+//                 <div>
+//                     <!-- Star -->
+//                     <img/>
+//                     <p>#</p>
+//                 </div>
+//             </div>
+            
+//             <p></p>
+
+//             <p>Time: 14 Minutes</p>
+//         </div>
+//     </section>
+// </main>
+
+
+////////////////////////////////////////////////////////////////////
+// <main>
+//     <section class="welcomeSection">
+//         <div>
+//             <div>
+//                 <h1>Welcome to thje Study Page!</h1>
+//                 <p></p>
+//             </div>
+
+//             <div>
+//                 <p>Music Provided by Lofi-Girl</p>
+                
+//                 <div>
+//                     <img/>
+//                 </div>
+//             </div>
+//         </div>
+//     </section>
+
+//     <section class="codersRoomSection">
+//         <h1>Coders Room</h1>
+//         <p></p>
+
+//         <div>
+//             <div>
+//                 <h2>General Room</h2>
+
+//                 <div>
+//                     <p>12k</p>
+
+//                     <div>
+//                         <p>Join</p>
+//                     </div>
+//                 </div>
+
+//                 <div>
+//                     <h2>Language-Specific Rooms</h2>
+
+//                     <div>
+//                         <div>
+//                             <div class="circle"></div>
+//                             <p>Java</p>
+//                             <p>120k</p>
+//                         </div>
+//                     </div>
+
+//                 </div>
+//             </div>
+//         </div>
+//     </section>
+
+//     <!-- Pick up where you left off Section Repeat -->
+
+//     <section class="learnSection">
+//         <h1>Learn</h1>
+//         <p></p>
+
+//         <div class="courseDiv">
+//             <div>
+//                 <h2>Courses</h2>
+//                 <p>All Courses</p>
+//             </div>
+
+//             <div class="courseCard">
+//                 <p></p>
+
+//                 <div class="circle"></div>
+
+//                 <p># Of Courses</p>
+//             </div>
+//         </div>
+
+//         <div class="problemsDiv">
+//             <div class="problemsHeader">
+//                 <p>Problems</p>
+
+//                 <p>Language</p>
+
+//                 <p>Difficulty</p>
+
+//                 <p>Solved</p>
+//             </div>
+
+//             <div class="problemsList">
+                
+//                 <div>
+//                     <div class="checkMark">
+//                         <img />
+//                     </div>
+
+//                     <div>
+//                         <p>Python</p>
+//                     </div>
+
+//                     <div>
+//                         <p>Easy</p>
+//                     </div>
+
+//                     <p>90%</p>
+//                 </div>
+
+//             </div> 
+//         </div>
+//     </section>
+// </main>
+
+//////////////////////////////////////////////////////////////////////
+<main>
+    <section class="codeCheatSheetSection">
+        <div>
+            <h1>Code CheatSheets</h1>
+            <p></p>
+        </div>
+
+        <div>
+            <p>Cheat SHeet Builder</p>
+            <p></p>
+
+            <div>
+                <p>Create</p>
+            </div>
+        </div>
+
+        <div>
+            <!-- searchBar -->
+            
+            <div>
+                <p>Your Recent Languages</p>
+
+                <div>
+                    <div>Python</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="mostUsedPage">
+        <div>
+            <h1>Most Used</h1>
+            <p>Show More</p>
+        </div>
+
+        <div>
+            <div>
+                <p>HTML Beginner</p>
+
+                <p>9 Sections # entries</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="communityCheatSheetsSection">
+        <div>
+            <h1>Community Cheatsheets</h1>
+            <p>Show More</p>
+        </div>
+
+        <div>
+            <div>
+                <div>
+                    <p>JavaScript Beginner</p>
+
+                    <div>
+                        <img/>
+                        <p></p>
+                    </div>
+                </div>
+
+                <p># Sections # Entries</p>
+            </div>
+
+            <div>
+                <img/>
+                <p>Alise</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+/////////////////////////////////////////
+// <main>
+//     <section class="welcomePage">
+//         <h1>Welcome to Documentation!!</h1>
+
+//         <p></p>
+//     </section>
+
+//     <!-- <div> -->
+//         <div>
+//             <div>
+//                 <p>Table of Contents</p>
+
+//                 <div>
+//                     <div class="circle"></div>
+//                     <p>Javascript</p>
+//                 </div>
+
+//                 <div>
+//                     <!-- Search Bar -->
+//                     <p>Recent Languages</p>
+
+//                     <div class="languageList">
+//                         <div>
+//                             <div class="circle"></div>
+//                             <p>Javascript</p>
+//                         </div>
+//                     </div>
+
+//                     <div>
+//                         <p>Browse All</p>
+//                     </div>
+//                 </div>
+//             </div>
+
+//             <div>
+//                 <p>Javascript</p>
+
+//                 <div class="contentList">
+//                     <div>
+//                         <p>Javascript Tutorial</p>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+
+//         <div>
+//             <div>
+//                 <div>
+//                     <p>Javascript</p>
+//                 </div>
+
+//                 <p>Fundamentals</p>
+//             </div>
+
+//             <div>
+//                 <h2>Functions</h2>
+//                 <p></p>
+
+//                 <div>
+//                     <p>Code</p>
+
+//                     <p></p>
+
+//                     <div>
+//                         <p>Copy Code</p>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     <!-- </div> -->
+// </main>
