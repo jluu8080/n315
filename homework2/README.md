@@ -6,7 +6,7 @@ Four navigation links swap the page content in place without a full page reload.
 ## Live Site (Web 4)
 
 <!-- Paste your Web 4 link below -->
-**Web 4 link:** 
+**Web 4 link: https://in-info-web4.luddy.indianapolis.iu.edu/~jasoluu/n315/homework2/** 
 
 ## Assignment Details
 
