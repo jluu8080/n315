@@ -6,7 +6,7 @@ Four navigation links swap the page content in place without a full page reload.
 ## Live Site (Web 4)
 
 <!-- Paste your Web 4 link below -->
-**Web 4 link:** _(paste link here)_
+**Web 4 link:** 
 
 ## Assignment Details
 
