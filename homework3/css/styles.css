@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+main {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pageHistory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.pageHistory .imagesList {
+  display: flex;
+  margin-right: 15px;
+}
+.pageHistory .imagesList img {
+  width: 600px;
+  height: auto;
+}
+.pageHistory #pageHistoryText {
+  width: 50ch;
+}
+
+#dueDate {
+  color: red;
+}
+
+header {
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 960px;
+  height: 100%;
+  background-color: lightcoral;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.toolsSection .middleDiv {
+  width: 100%;
+  height: 100px;
+  border: red 1px solid;
+  position: relative;
+  margin-bottom: 25px;
+}
+.toolsSection .middleDiv .circleList {
+  width: 100%;
+  height: 100%;
+  background-color: beige;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.toolsSection .middleDiv .bigCircle {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 1;
+}
+.toolsSection .middleDiv .line {
+  position: absolute;
+  border-bottom: 5px gray dotted;
+  height: 100px;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.toolsSection .toolCardList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.toolsSection .toolCardList .toolCard {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.toolsSection .toolCardList .toolCard .circle {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.ticketForm {
+  width: 500px;
+}
+.ticketForm #ticketFormHeader {
+  margin: 0;
+  margin-bottom: 5px;
+}
+.ticketForm #dueDate {
+  color: red;
+}
+.ticketForm .radioBtnsDiv label {
+  margin-right: 10px;
+}
+.ticketForm .ticketDescDiv {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.ticketForm .ticketDescDiv .checkNumDiv,
+.ticketForm .ticketDescDiv .groupNameDiv {
+  display: flex;
+  align-items: center;
+}
+.ticketForm .ticketDescDiv .checkNumDiv p,
+.ticketForm .ticketDescDiv .groupNameDiv p {
+  margin: 0;
+  margin-right: 5px;
+}
+.ticketForm .ticketDescDiv .checkNumDiv input,
+.ticketForm .ticketDescDiv .groupNameDiv input {
+  height: 22px;
+  width: 200px;
+}
+
+.workOrderSection {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.workOrderSection .workOrderDetails {
+  width: 50%;
+}
+.workOrderSection .workOrderDetails .workOrderDiv,
+.workOrderSection .workOrderDetails .dueDateDiv {
+  display: flex;
+  align-items: center;
+}
+.workOrderSection .workOrderDetails .workOrderDiv p,
+.workOrderSection .workOrderDetails .dueDateDiv p {
+  margin: 0;
+  margin-right: 5px;
+}
+.workOrderSection .workOrderDetails .workOrderDiv input,
+.workOrderSection .workOrderDetails .dueDateDiv input {
+  height: 22px;
+  width: 200px;
+}
+.workOrderSection .workOrderListDiv {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: lightsalmon;
+}
+.workOrderSection .workOrderListDiv .workOrderListHeader {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders {
+  display: flex;
+  flex-direction: column;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder .workOrderDesc {
+  width: 85%;
+  background-color: lightgray;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder .workOrderDesc p {
+  margin: 0;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder .workOrderButtons {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder .workOrderButtons div {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+
+.ticketButtons {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ticketButtons input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.ticketsSection {
+  margin-top: 50px;
+}
+.ticketsSection .ticketSectionHeader {
+  margin-bottom: 10px;
+}
+.ticketsSection .ticketSectionHeader p {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+.ticketsSection .generatedTickets {
+  display: flex;
+}
+.ticketsSection .generatedTickets .ticket {
+  width: 300px;
+  min-height: 400px;
+  border: 1px solid black;
+  margin-right: 25px;
+  padding: 10px;
+}
+.ticketsSection .generatedTickets .ticket .ticketTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.ticketsSection .generatedTickets .ticket .ticketTop .ticketTopLeft p {
+  font-size: 16px;
+  margin: 0;
+}
+.ticketsSection .generatedTickets .ticket .ticketTop .ticketTopRight {
+  width: 25%;
+}
+.ticketsSection .generatedTickets .ticket .ticketTop .ticketTopRight .ticketEditBtns {
+  display: flex;
+  justify-content: space-between;
+}
+.ticketsSection .generatedTickets .ticket .ticketTop .ticketTopRight .ticketEditBtns div {
+  height: 25px;
+  width: 25px;
+  background-color: lightgray;
+}
+.ticketsSection .generatedTickets .ticket .ticketBottom p {
+  margin: 0;
+}
+.ticketsSection .generatedTickets .ticket .ticketBottom #ticketType {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.ticketsSection .generatedTickets .ticket .ticketBottom .workOrderList {
+  display: flex;
+  flex-direction: column;
+}
+.ticketsSection .generatedTickets .ticket .ticketBottom .workOrderList .workOrder {
+  margin-bottom: 15px;
+}
+
+.workLogSection {
+  display: flex;
+  justify-content: center;
+}
+.workLogSection .workLogContent {
+  min-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.workLogSection .workLogContent label {
+  font-size: 36px;
+  font-weight: bold;
+}
+.workLogSection .workLogContent .workLogInputs {
+  width: 70%;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: lightblue;
+}
+.workLogSection .workLogContent .workLogInputs input {
+  height: 25px;
+}
+.workLogSection .workLogContent .workLogInputs #workLogEntryBox {
+  background-color: aliceblue;
+  height: 100px;
+  width: 100%;
+  font-size: 18px;
+}
+.workLogSection .workLogContent #workLogEntriesList {
+  /* background-color: lightgray; */
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid;
+}
+.workLogSection .workLogContent #workLogEntriesList p {
+  margin: 0;
+  padding: 10px;
+  white-space: pre-wrap;
+  font-size: 18px;
+}
+
+.newSnippetDiv {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.newSnippetDiv input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.left_RightSections {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.leftDiv {
+  width: 250px;
+  background-color: lightcoral;
+}

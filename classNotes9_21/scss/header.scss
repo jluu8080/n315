@@ -1,0 +1,27 @@
+header
+{
+    height: 60px;
+    background-color:black;
+
+    display:flex;
+    justify-content: center;
+    nav
+    {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+
+        min-width: 960px; //Responsiveness
+        height: 100%;
+
+        // background-color:aquamarine;
+
+        a
+        {
+            color:white;
+            text-decoration: none;
+
+
+        }
+    }
+}

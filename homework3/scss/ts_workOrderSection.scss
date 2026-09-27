@@ -1,0 +1,97 @@
+.workOrderSection
+{
+    width: 800px;
+
+    display:flex;
+    justify-content: space-between;
+    
+    // background-color: lightblue;
+
+    .workOrderDetails
+    {
+        // background-color: bisque;
+        
+        width:50%;
+
+        .workOrderDiv,
+        .dueDateDiv
+        {
+            display:flex;
+            align-items: center;
+
+            p
+            {   
+                margin:0;
+                margin-right:5px;
+            }
+                
+            input
+            {
+                height:22px;
+                width:200px;
+            }
+        }
+    }
+
+    .workOrderListDiv
+    {
+        width:50%;
+        padding:10px;
+
+        border-radius: 5px;
+        background-color: lightsalmon;
+        
+        .workOrderListHeader
+        {
+            text-align: center;
+
+            font-size:18px;
+            font-weight: bold;
+        }
+
+        .generatedWorkOrders
+        {
+            // min-height:400px;
+
+            display:flex;
+            flex-direction: column;
+
+
+            .workOrder
+            {
+                width:100%;
+                display:flex;
+                justify-content: space-between;
+
+                margin-bottom:10px;
+
+                .workOrderDesc
+                {
+                    width:85%;
+
+                    background-color: lightgray;
+                    p
+                    {
+                        margin:0;
+                    }
+                }
+
+                .workOrderButtons
+                {
+                    width: 15%;
+
+                    display:flex;
+                    justify-content: space-between;
+
+                    div
+                    {
+                        width:20px;
+                        height:20px;
+                        background-color: red;
+                    }
+                }
+            }
+        }
+
+    }
+}

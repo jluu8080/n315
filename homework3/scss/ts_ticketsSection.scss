@@ -1,0 +1,111 @@
+.ticketsSection
+{
+    margin-top:50px;
+
+
+    .ticketSectionHeader
+    {
+        margin-bottom:10px;
+        p
+        {
+            font-size: 48px;
+            font-weight: bold;
+
+            margin:0;
+        }
+    }
+
+    .generatedTickets
+    {
+        display:flex;
+
+        // background-color: blue;
+
+        .ticket
+        {
+            width: 300px;
+            min-height: 400px;
+            border:1px solid black;
+
+            // margin-top:20px;
+            margin-right:25px;
+
+            padding:10px;
+
+            // background-color:aliceblue;
+
+            .ticketTop
+            {
+                display:flex;
+                justify-content: space-between;
+                margin-bottom: 20px;;
+                
+                // background-color: beige;
+
+
+                .ticketTopLeft
+                {
+                    p
+                    {
+                        font-size:16px;
+                        margin:0;
+                    }
+                }
+
+                .ticketTopRight
+                {
+                    width:25%;
+                    
+                    // background-color: red;
+
+                    .ticketEditBtns
+                    {
+                        display:flex;
+                        justify-content: space-between;
+
+                        // background-color: blue;
+
+                        div
+                        {
+                           
+
+                            height:25px;
+                            width: 25px;
+                            background-color: lightgray;
+                        }
+                    }
+                }
+            }
+
+            .ticketBottom
+            {
+                // background-color: lightgreen;
+
+                p
+                {
+                    margin:0;
+                }
+
+                #ticketType
+                {
+                    font-size:18px;
+                    font-weight: bold;
+
+                    text-align: center;
+                    margin-bottom:5px;
+                }
+
+                .workOrderList
+                {
+                    display:flex;
+                    flex-direction: column;
+
+                    .workOrder
+                    {
+                        margin-bottom:15px;
+                    }
+                }
+            }
+        }
+    }
+}
