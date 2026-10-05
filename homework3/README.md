@@ -3,7 +3,7 @@
 ## Live Site (Web 4)
 
 <!-- Paste your Web 4 link below (likely https://in-info-web4.luddy.indianapolis.iu.edu/~jasoluu/n315/homework3/) -->
-**Web 4 link:** 
+**Web 4 link: https://in-info-web4.luddy.indianapolis.iu.edu/~jasoluu/n315/homework3/** 
 
 ## Assignment Details
 
