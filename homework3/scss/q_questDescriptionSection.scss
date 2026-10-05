@@ -1,0 +1,30 @@
+.questDescriptionSection
+{
+    width:800px;
+    padding:15px;
+
+    background-color: beige;
+
+    p
+    {
+        margin:0;
+    }
+
+    input
+    {
+        padding: 4px 8px;
+        text-indent:5px;
+    }
+
+    .questDescTop
+    {
+        width:450px;
+        margin-bottom: 15px;
+
+        display:flex;
+        justify-content: space-between;
+
+        // background-color: blueviolet;
+        
+    }
+}

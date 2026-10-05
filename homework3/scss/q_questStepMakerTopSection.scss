@@ -1,0 +1,170 @@
+.questStepMakerTopSection
+{
+
+    padding:15px;
+
+    display:flex;
+    background-color: burlywood;
+
+    .questStepMakerLeft
+    {
+        width:450px;
+
+        background-color: lightgreen;
+        
+        #currentStepNum
+        {
+            font-size: 18px;
+        }
+
+
+        .questTaskInputs
+        {
+
+            .questTask,
+            .questSubTask 
+            {
+                // width:100%;
+
+                margin-bottom:20px;
+
+                display:flex;
+                flex-direction: column;
+
+                // background-color: lightblue;
+
+                p
+                {
+                    margin:0;
+
+                    font-size: 18px;
+                }
+
+                textarea
+                {
+                    resize:vertical;
+                    white-space:pre-wrap;
+                    
+                    // width: 50%;
+                    min-height: 50px;
+                    // border: 1px solid #e2e4e9;
+                    // border-radius: 5px;
+
+                    padding-top: 5px;
+                    padding-left: 5px;
+
+                    margin-bottom:10px;
+
+                }
+            }
+
+            .addTaskBtn, .addSubTaskBtn
+            {
+                // width: 50%;
+                // background-color: red;
+
+                display: flex;
+                justify-content: center;
+
+                input
+                {
+                    width:50%;
+
+                    padding:10px;
+                    border:1px solid black;
+                    border-radius: 5px;
+                }
+            }
+
+
+        }
+    }
+
+    .questStepMakerRight
+    {
+        width:450px;
+
+        padding:15px;
+        background-color: lightcoral;
+        
+        border:1px solid black;
+        
+        .questStepViewer
+        {
+
+            h3
+            {
+                text-align: center;
+                margin:0;
+            }
+
+            #currentQuestStep
+            {
+                margin-left:3px;
+            }
+
+            .questTaskList
+            {
+                width:100%;
+
+
+                .questTask
+                {
+                    width:100%;
+
+                    display:flex;
+                    justify-content: space-around;
+
+                    margin-bottom: 15px;
+                    background-color: blanchedalmond;
+
+                    .questTaskLeft
+                    {
+
+                        #questTaskName
+                        {
+                            font-size: 24px;
+                            margin:0;
+                            margin-bottom:5px;
+                        }
+
+                        #questTaskDesc
+                        {
+                            width:40ch;
+                            
+                            margin-left:4px;
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .questTaskRight
+                    {
+                        width:25%;
+                        // background-color: lightgray;
+
+
+                        .questTaskEditBtns
+                        {
+                            display:flex;
+                            justify-content: flex-end;
+
+                            .editTask, .deleteTask
+                            {
+                                width:30px;
+                                height:30px;
+                                background-color: blue;
+                            }
+
+                            .editTask
+                            {
+                                margin-right:25px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}

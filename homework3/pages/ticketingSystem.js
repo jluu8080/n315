@@ -5,7 +5,9 @@ export default
         <img src="images/ticketingSystemPrototype.jpeg">
     </div>
 
-    <p id="pageHistoryText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate quam, quas impedit soluta obcaecati dolore iure eos esse voluptatum facilis? Ducimus deserunt rerum maiores provident ipsa impedit fugit, in porro.</p>
+    <p id="pageHistoryText">
+        The ticketing system began as paper tickets on my fridge, inspired by my years as a food runner. Mk.1 turned them into a web form that generated printable tickets, but every ticket showed the time the page loaded, and work orders leaked from one ticket into the next. Mk.2 fixed the time bug and added selecting and editing, but it left two bugs: several tickets could be selected at once, and new work orders didn't show up. Mk.3 is a full rebuild that started on paper, planning every div before writing any code.
+    </p>
 </section>
 
 <section class="ticketForm">

@@ -5,7 +5,9 @@ export default
         <img src="images/workLogPrototype.jpeg">
     </div>
 
-    <p id="pageHistoryText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate quam, quas impedit soluta obcaecati dolore iure eos esse voluptatum facilis? Ducimus deserunt rerum maiores provident ipsa impedit fugit, in porro.</p>
+    <p id="pageHistoryText">
+        The worklog started as a Google Doc where I wrote down the work I finished, and I wanted my own tool instead of relying on Google Docs. Mk.1 moved it into my site with a date picker, text box and buttons, but it logged placeholder text and never saved anything, but it was good for copying and pasting. I chose plain text files, so entries stay readable outside the app. Mk.2 rebuilds the page from the ground up.
+    </p>
 </section>
 
 <section class="workLogSection">

@@ -6,11 +6,14 @@ export default
     </div>
 
     <p id="pageHistoryText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate quam, quas impedit soluta obcaecati dolore iure eos esse voluptatum facilis? Ducimus deserunt rerum maiores provident ipsa impedit fugit, in porro.</p>
+
 </section>
 
 <section class="heroSection">
     <h1>A Little Story Time</h1>
-    <p></p>
+    <p>
+
+    </p>
 </section>
 
 <section class="toolsSection">
@@ -44,7 +47,7 @@ export default
                 <!-- <img /> -->
             </div>
 
-            <h2>Ticketing System Mk.3</h2>
+            <h2>Code CheatSheets Mk.2</h2>
             
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos a, nemo eos quasi fugit eaque quae sed blanditiis officiis, veniam doloribus quo, quam sint rem provident. Repudiandae vero explicabo ipsum.</p>
         </div>
@@ -54,7 +57,7 @@ export default
                 <!-- <img /> -->
             </div>
 
-            <h2>Ticketing System Mk.3</h2>
+            <h2>Worklog Mk.2</h2>
             
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos a, nemo eos quasi fugit eaque quae sed blanditiis officiis, veniam doloribus quo, quam sint rem provident. Repudiandae vero explicabo ipsum.</p>
         </div>
@@ -64,7 +67,7 @@ export default
                 <!-- <img /> -->
             </div>
 
-            <h2>Ticketing System Mk.3</h2>
+            <h2>Quests Mk.2</h2>
             
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos a, nemo eos quasi fugit eaque quae sed blanditiis officiis, veniam doloribus quo, quam sint rem provident. Repudiandae vero explicabo ipsum.</p>
         </div>
