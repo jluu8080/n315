@@ -5,7 +5,7 @@ A complete, responsive single-page website for Summit Ridge Outfitters, built fr
 ## Live Site (Web 4)
 
 <!-- Paste your Web 4 link below -->
-**Web 4 link:** 
+**Web 4 link: https://in-info-web4.luddy.indianapolis.iu.edu/~jasoluu/n315/homework5/** 
 
 ## Purpose
 
