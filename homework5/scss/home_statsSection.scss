@@ -1,0 +1,51 @@
+.home_statsSection
+{
+    height:91px;
+
+    background-color: #1B4332;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    .statCard
+    {
+        width:340px;
+        height:51px;
+
+        display:flex;
+        flex-direction: column;
+        border-right: 1px solid #FFFFFF26;
+
+        padding-right: 113px;
+        padding-left:113px;
+
+        .statNum
+        {
+            
+            color:#E8722A;
+            font-size:24px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            text-align: center;
+
+        }
+
+        .statName
+        {
+            width:100ch;
+
+            color:#FFFFFF80;
+            font-size:10px;
+            font-weight: 400;
+            letter-spacing: 2px;
+
+            margin-top:4px;
+        }
+    }
+
+    .noBorder
+    {
+        border-right:1px solid transparent;
+    }
+}

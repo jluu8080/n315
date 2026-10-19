@@ -1,0 +1,49 @@
+.home_customerReviewsSection
+{
+    background-color: lightsalmon;
+
+    .center_topSection
+    {
+        background-color: darkkhaki;
+
+    }
+
+    .customerReviewCardsContainer
+    {
+        background-color: mediumpurple;
+
+        .customReviewCard
+        {
+            background-color: lightseagreen;
+
+            .ratingDiv
+            {
+                background-color: salmon;
+
+            }
+
+            .review
+            {
+                background-color: cornflowerblue;
+
+            }
+
+            .customerProfile
+            {
+                background-color: tomato;
+
+                .customerImg
+                {
+                    background-color: gold;
+
+                }
+
+                .profileDesc
+                {
+                    background-color: mediumseagreen;
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+ font-family: DMSans_regular;
+}
+// h1, h2, h3, h4, h5, h6, p {
+// //  margin-bottom: 16px
+// }
+
+section
+{
+    padding-left:180px;
+    padding-right:187px;
+}
+
+@font-face {
+    font-family: DMSans_regular;
+    src: url("../fonts/DM_Sans/static/DMSans_18pt-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: DMSans_thin;
+    src: url("../fonts/DM_Sans/static/DMSans_24pt-Thin.ttf");
+}
+
+@font-face
+{
+    font-family: DMSans_semibold;
+    src:url(../fonts/DM_Sans/static/DMSans-SemiBold.ttf);
+}
+
+@font-face
+{
+    font-family: DMSans_bold;
+    src:url(../fonts/DM_Sans/static/DMSans-Bold.ttf);
+}
+
+@font-face
+{
+    font-family: Archivo_regular;
+    src:url(../fonts/Archivo/static/Archivo-Regular.ttf)
+}
+
+@font-face{
+    font-family: Archivo_extraBold;
+    src: url("../fonts/Archivo/static/Archivo-ExtraBold.ttf")
+}

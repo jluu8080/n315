@@ -1,0 +1,48 @@
+.home_adventureSection
+{
+    background-color: plum;
+
+    .spaceEven_topSection
+    {
+        background-color: darkkhaki;
+
+        .topLeft
+        {
+            background-color: mediumpurple;
+
+            .subHeaderContainer
+            {
+                background-color: lightseagreen;
+
+            }
+
+            .shopHeader
+            {
+                background-color: salmon;
+
+            }
+        }
+
+        .topRight
+        {
+            background-color: cornflowerblue;
+
+        }
+    }
+
+    .adventureGuideCardsContainer
+    {
+        background-color: tomato;
+
+        .adventureGuideCard
+        {
+            background-color: gold;
+
+            .advGuideContent
+            {
+                background-color: mediumseagreen;
+
+            }
+        }
+    }
+}

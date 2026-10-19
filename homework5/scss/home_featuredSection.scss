@@ -1,0 +1,188 @@
+.home_featuredSection
+{
+    background-color: #FFFFFF;
+
+    height: 1362px;
+
+    padding-top:96px;
+
+    .center_top
+    {
+        
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .subHeader
+        {
+            color:#E8722A;
+            font-size:12px;
+            font-weight:700;
+            letter-spacing: 3.6px;
+
+        }
+
+        .header
+        {
+            color:#111D15;
+            font-family: Archivo_extraBold;
+            font-weight: 900;
+            font-size:40px;
+        }
+    }
+
+    .featuredProductCardsContainer
+    {
+
+        margin-top: 48px;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+
+        justify-items: center;
+
+        .featProductCard
+        {
+
+            width:432px;
+            height:454px;
+            border-radius: 18px;
+
+            background-color: #F4F5F0;
+
+            .featProd_top
+            {
+                background-color: orange;
+
+                height:324px;
+
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+
+                border-top-right-radius: 18px;
+                border-top-left-radius: 18px;
+
+                .featProdTag
+                {
+
+                    //Need to fix this width
+                    max-width:76px;
+                    height:23px;
+                    border-radius: 35px;
+
+                    background-color: #E8722A;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    //Not spacing out the tags correctly
+                    // margin-top: 12px;
+                    // margin-left:12px;
+
+                    p
+                    {
+                        font-family: DMSans_bold;
+
+                        color:#FFFFFF;
+                        font-size:10px;
+                        line-height: 0.25px;
+
+                        text-align: center;
+                    }
+                }
+            }
+
+            .trailBlazerImg
+            {
+
+                background-image: url(../images/trailBlazerImg.jpg);
+            }
+
+            .summitTentImg
+            {
+             background-image: url("../images/summitTentImg.jpg");   
+            }
+
+            .alpineJacket
+            {
+                background-image: url("../images/alpineJacketImg.jpg");
+            }
+
+            .riverbendPaddle
+            {
+                background-image: url("../images/riverbentPaddle.jpg");
+            }
+
+            .graniteBoots
+            {
+                background-image: url("../images/graniteBootsImg.jpg");
+            }
+
+            .flyFisherSet
+            {
+                background-image: url("../images/flyerFisherSet.jpg");
+            }
+
+            .featProd_bottom
+            {
+                padding:20px;
+
+                .productName
+                {
+                    color:#111D15;
+
+                    font-family: Archivo_extraBold;
+                    font-size: 18px;;
+                }
+
+                .ratings
+                {
+                    margin-top: 6px;
+
+                    p
+                    {
+                        color: #FFB900;
+                        font-size:18px;
+                    }
+                }
+
+                .productPrice_and_Btn
+                {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .productPrice
+                    {
+                        font-family: DMSans_Bold;
+                        color:#1B4332;
+                        font-size: 20px;
+
+                    }
+
+                    .viewProdBtn
+                    {
+                        text-align: center;
+
+                        font-family: DMSans_bold;
+                        color:#E8722A;
+                        font-size: 14px;;
+                    }
+                }
+            }
+        }
+    }
+
+    .viewAllProdBtnContainer
+    {
+        background-color: darkkhaki;
+
+        .viewAllProdsBtn
+        {
+            background-color: mediumpurple;
+
+        }
+    }
+}

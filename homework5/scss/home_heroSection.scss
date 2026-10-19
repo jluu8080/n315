@@ -1,0 +1,140 @@
+.home_heroSection
+{
+    width:100%;
+    height:878px;
+
+    background-image:
+    linear-gradient(90deg, rgba(11, 22, 16, 0.92) 0%, rgba(11, 22, 16, 0.65) 50%, rgba(11, 22, 16, 0) 100%),
+    url("../images/heroImage.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 201px;
+    padding-left:270px;
+    padding-right:270px;
+
+    .subHeaderContainer
+    {
+
+        display:flex;
+        align-items: center;
+        .line
+        {
+            background-color:#E8722A;
+            width:32px;
+            height:1px;
+
+            margin-right:12px;
+            padding:0px;
+        }
+
+        p
+        {
+            font-family: DMSans_bold;
+            
+            color:#E8722A;
+            font-size: 12px;
+            letter-spacing: 3.6px;
+            
+        }
+    }
+
+    .header
+    {
+        width:10ch;
+
+        color: #FFFFFF;
+
+        font-family: Archivo_regular;
+        font-size: 88px;
+        font-weight: 900;
+        
+        letter-spacing: -2.2px;
+        line-height: 81px;
+
+        margin-top:24px;
+
+        span
+        {
+            color:#E8722A;
+        }
+    }
+
+    .hero_p
+    {
+        width:40ch;
+
+
+        font-family: DMSans_thin;
+        color: #FFFFFF;
+        font-size:18px;
+        line-height: 29px;
+        letter-spacing: 1px;
+
+        margin-top: 28px;
+
+    }
+
+    .hero_btns
+    {
+        margin-top: 40px;
+
+        .shopBtn
+        {
+            background-color: #E8722A;
+
+            width:150px;
+            height:48px;
+
+            color:#FFFFFF;
+            font-size: 14px;
+            font-weight:700;
+
+            border: 1px solid transparent;
+            border-radius: 10px;
+
+            margin-right:16px;
+
+        }
+
+        .exploreAdvBtn
+        {
+            background-color: transparent;
+
+            width:201px;
+            height:52px;
+
+            color: #FFFFFF;
+            font-size: 14px;
+            font-weight:700;
+
+            border: 2px solid #FFFFFF;
+            border-radius: 10px;
+
+        }
+    }
+
+    .scroll
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top:171px;
+
+        p
+        {
+            color: #FFFFFF4D;
+            letter-spacing:2.5px;
+        }
+
+        img
+        {
+            width:1px;
+            height:40px;
+        }
+    }
+}
