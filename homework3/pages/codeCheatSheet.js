@@ -21,7 +21,7 @@ export default
         <div class="tableOfContents">
 
             <div class="codeSection">
-                <div class="borderLeftDiv"></div>
+                <div class="leftDiv_border"></div>
 
                 <div class="codeSectionContent">
                     <div class="langDiv">
@@ -35,7 +35,7 @@ export default
             </div>
 
             <div class="codeSection">
-                <div class="borderLeftDiv"></div>
+                <div class="leftDiv_border"></div>
 
                 <div class="codeSectionContent">
                     <div class="langDiv">

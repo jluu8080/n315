@@ -65,13 +65,29 @@
 
                         // background-color: blue;
 
-                        div
+                        #editTicketBtn
                         {
-                           
-
                             height:25px;
                             width: 25px;
-                            background-color: lightgray;
+                            background-image: url("../icons/pen.png");
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+
+                            // background-color: lightgray
+
+                        }
+
+                        #deleteTicketBtn
+                        {
+                            height:25px;
+                            width: 25px;
+                            background-image: url("../icons/bin.png");
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+
+                            // background-color:lightgray;
                         }
                     }
                 }

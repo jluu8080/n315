@@ -182,7 +182,6 @@ header nav a {
   flex-direction: column;
 }
 .workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -203,6 +202,47 @@ header nav a {
   width: 20px;
   height: 20px;
   background-color: red;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder .workOrderButtons #workOrderEditBtn {
+  background-image: url("../icons/pen.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder .workOrderButtons #workOrderDeleteBtn {
+  background-image: url("../icons/bin.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder .workOrderEdit {
+  width: 100%;
+  height: 60px;
+  background-color: lightgray;
+  display: none;
+  justify-content: space-between;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder .workOrderEdit .editInputs {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder .workOrderEdit .WOEdit_btns {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder .workOrderEdit .WOEdit_btns div {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+.workOrderSection .workOrderListDiv .generatedWorkOrders .workOrder .workOrderEdit .WOEdit_btns #saveBtn {
+  background-image: url("../icons/pen.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .ticketButtons {
@@ -257,10 +297,21 @@ header nav a {
   display: flex;
   justify-content: space-between;
 }
-.ticketsSection .generatedTickets .ticket .ticketTop .ticketTopRight .ticketEditBtns div {
+.ticketsSection .generatedTickets .ticket .ticketTop .ticketTopRight .ticketEditBtns #editTicketBtn {
   height: 25px;
   width: 25px;
-  background-color: lightgray;
+  background-image: url("../icons/pen.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.ticketsSection .generatedTickets .ticket .ticketTop .ticketTopRight .ticketEditBtns #deleteTicketBtn {
+  height: 25px;
+  width: 25px;
+  background-image: url("../icons/bin.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .ticketsSection .generatedTickets .ticket .ticketBottom p {
   margin: 0;
@@ -310,19 +361,38 @@ header nav a {
   background-color: aliceblue;
   height: 100px;
   width: 100%;
-  font-size: 18px;
+  white-space: pre-wrap;
+  font-size: 14px;
+  padding-top: 2px;
+  padding-left: 5px;
 }
 .workLogSection .workLogContent #workLogEntriesList {
   /* background-color: lightgray; */
   width: 100%;
+  min-height: 100px;
   margin-top: 20px;
   border: 1px solid;
-}
-.workLogSection .workLogContent #workLogEntriesList p {
-  margin: 0;
   padding: 10px;
+}
+.workLogSection .workLogContent #workLogEntriesList .workLogEntry {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed black;
+}
+.workLogSection .workLogContent #workLogEntriesList .workLogEntry p {
+  margin: 0;
+  padding: 0;
+}
+.workLogSection .workLogContent #workLogEntriesList .workLogEntry .entryNum {
+  margin-bottom: 15px;
+}
+.workLogSection .workLogContent #workLogEntriesList .workLogEntry #entryDate {
+  font-weight: bold;
+}
+.workLogSection .workLogContent #workLogEntriesList .workLogEntry #entryDesc {
+  margin-top: 1px;
   white-space: pre-wrap;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .newSnippetDiv {
@@ -342,20 +412,6 @@ header nav a {
   margin-top: 0;
   margin-bottom: 20px;
 }
-.left_RightSections .langDiv {
-  width: 75px;
-  height: 25px;
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: lightblue;
-  border: 1px black solid;
-  border-radius: 5px;
-}
-.left_RightSections .langDiv .html {
-  margin: 0;
-}
 
 .leftDiv {
   width: 300px;
@@ -366,12 +422,13 @@ header nav a {
   margin-bottom: 20px;
   background-color: lightcyan;
 }
-.leftDiv .tableOfContents .codeSection .borderLeftDiv {
+.leftDiv .tableOfContents .codeSection .leftDiv_border {
   width: 10px;
   flex-shrink: 0;
   background-color: yellow;
 }
 .leftDiv .tableOfContents .codeSection .codeSectionContent {
+  width: 100%;
   border: 1px solid black;
   padding: 5px;
 }
@@ -379,15 +436,35 @@ header nav a {
   margin: 0;
   padding: 0;
 }
-
+.leftDiv .tableOfContents .codeSection .codeSectionContent .langDiv {
+  min-width: 75px;
+  width: fit-content;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  border: 1px black solid;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.leftDiv .tableOfContents .codeSection .codeSectionContent .langDiv .html {
+  margin: 0;
+}
+.leftDiv .tableOfContents .codeSection .codeSectionContent .codeTitle {
+  font-weight: bold;
+  font-size: 21px;
+}
 .rightDiv {
   width: 650px;
-  padding-left: 20px;
+  padding-left: 10px;
   background-color: aliceblue;
 }
 .rightDiv .newCodeSnippetForm {
   border: 1px solid black;
   padding: 10px;
+  display: none;
 }
 .rightDiv .newCodeSnippetForm p {
   margin: 0;
@@ -403,22 +480,30 @@ header nav a {
 .rightDiv .newCodeSnippetForm .titleLanguageDiv .langInputDiv input {
   width: 100%;
   padding: 1px 11px;
-  border: 1px solid #e2e4e9;
+  border: 1px solid black;
   border-radius: 5px;
 }
-.rightDiv .newCodeSnippetForm .codeDesc,
-.rightDiv .newCodeSnippetForm .codeSnippet,
-.rightDiv .newCodeSnippetForm .codeOutput {
+.rightDiv .newCodeSnippetForm .codeSnippet_codeTitle input {
+  width: 100%;
+  height: 25px;
+  padding: 1px 11px;
+  border: 1px solid black;
+  border-radius: 5px;
   margin-bottom: 20px;
 }
-.rightDiv .newCodeSnippetForm .codeDesc textarea,
-.rightDiv .newCodeSnippetForm .codeSnippet textarea,
-.rightDiv .newCodeSnippetForm .codeOutput textarea {
+.rightDiv .newCodeSnippetForm .codeSnippet_Desc,
+.rightDiv .newCodeSnippetForm .codeSnippet_Code,
+.rightDiv .newCodeSnippetForm .codeSnippet_Output {
+  margin-bottom: 20px;
+}
+.rightDiv .newCodeSnippetForm .codeSnippet_Desc textarea,
+.rightDiv .newCodeSnippetForm .codeSnippet_Code textarea,
+.rightDiv .newCodeSnippetForm .codeSnippet_Output textarea {
   resize: vertical;
   white-space: pre-wrap;
   width: 100%;
   min-height: 100px;
-  border: 1px solid #e2e4e9;
+  border: 1px solid black;
   border-radius: 5px;
   padding-top: 5px;
   padding-left: 5px;
@@ -430,6 +515,9 @@ header nav a {
   border-radius: 5px;
 }
 .rightDiv .codeSnippetView {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
   padding-top: 15px;
 }
 .rightDiv .codeSnippetView .codeSnippetTitle {
@@ -464,6 +552,32 @@ header nav a {
   font-size: 12px;
   letter-spacing: 2px;
 }
+.rightDiv .codeSnippetBtns {
+  display: flex;
+}
+.rightDiv .codeSnippetBtns input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+.rightDiv .codeSnippetBtns #copySnippet:hover {
+  color: #3b5bdb;
+  border-color: #3b5bdb;
+}
+.rightDiv .codeSnippetBtns #editSnippet:hover {
+  color: green;
+  border-color: green;
+}
+.rightDiv .codeSnippetBtns #deleteSnippet:hover {
+  color: red;
+  border-color: red;
+}
+
 .questDescriptionSection {
   width: 800px;
   padding: 15px;

@@ -1,0 +1,76 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, body {
+ height: 100%;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+body.home
+{
+    background: linear-gradient(rgba(181, 89, 80, 0.6), rgba(181, 89, 80, 0.6)),
+     url('/src/images/hero.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+body.login
+{
+    background-color: #FFD972;
+}
+
+#app {
+    flex: 1;              // instead of height: 100%
+    display: flex;
+}
+
+.hero {
+    flex: 1;              // instead of height: 100%
+}
+
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: caveat_regular;
+    src: url("/src/fonts/Caveat-Regular.ttf");
+}
+
+@font-face {
+    font-family: lato_regular;
+    src: url("/src/fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: lato_italic;
+    src: url("/src/fonts/Lato/Lato-Italic.ttf");
+}
+
+@font-face {
+    font-family: inter_regular;
+    src: url("/src/fonts/Inter/static/Inter_18pt-Regular.ttf");
+}

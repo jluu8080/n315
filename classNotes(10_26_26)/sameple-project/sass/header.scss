@@ -1,0 +1,27 @@
+header
+{
+    width: 100%;
+    min-height: 80px;
+    position: fixed; //Makes it stay up there all the time even as I scroll, using sticky makes it like a normal element and pushes elements down. 
+
+    top:0;
+    z-index: 1000;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    nav
+    {
+        max-width: 960px; //Will need to be changed later
+        display: flex;
+        gap:30px;
+
+        a
+        {
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}

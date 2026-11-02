@@ -1,0 +1,101 @@
+.loginPage
+{
+    width:100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    p
+    {
+        font-family: lato_regular;
+        font-size: 12px;
+        font-weight: 400;
+        color: black;
+        letter-spacing: 10%;
+        margin:0;
+    }
+
+    input
+    {
+        background: transparent;
+        border:none;
+        outline: none;
+
+        border-bottom: 1px solid black;
+        
+        margin-bottom:25px;
+    }
+
+    .loginFields
+    {
+
+        .loginHeader
+        {
+            font-family: inter_regular;
+            font-size: 30px;
+            letter-spacing: 10%;
+            margin-bottom:16px;
+            // background-color: red;
+        }
+    }
+
+    .signUpField
+    {
+        .subTitle
+        {
+            font-family: lato_regular;
+            font-size: 12px;
+            letter-spacing: 10%;
+        }
+
+        .signUpHeader
+        {
+            font-family: Inter_regular;
+            font-size: 30px;
+            font-weight: 400;
+            letter-spacing: 10%;
+
+            margin-bottom: 62px;
+        }
+    }
+
+    #loginBtn
+    {
+        box-shadow: 0px 10px 3px 0px #00000029;
+
+        width: 250px;
+        height: 52px;
+
+        border:none;
+        border-radius: 26px;
+
+        font-family: caveat_regular;
+        font-size: 25px;
+        letter-spacing: 10%;
+        text-align: center;
+    }
+
+    #signUpBtn
+    {
+        box-shadow: 0px 10px 3px 0px #00000029;
+
+        width: 250px;
+        height: 52px;
+
+        border:none;
+        border-radius: 26px;
+
+        font-family: caveat_regular;
+        font-size: 25px;
+        letter-spacing: 10%;
+        text-align: center;
+    }
+
+    @media (max-width: 768px)
+    {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 40px;
+    }
+}

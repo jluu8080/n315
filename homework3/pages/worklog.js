@@ -19,12 +19,17 @@ export default
 
             <textarea id="workLogEntryBox"></textarea>
 
-            <input type="button" value="Log Entry">
-            <input type="button" value="Copy Code">
+            <input type="button" value="Log Entry" id="logEntryBtn">
+            <input type="button" value="Copy Entry" id="copyEntryBtn">
         </div>
 
         <div id="workLogEntriesList">
-            <p>Hi</p>
+            <!-- <div class="workLogEntry">
+                <p id="entryDate"></p>
+                <p id="entryDesc"></p>
+            </div> -->
+
+            
         </div>
     </div>
 

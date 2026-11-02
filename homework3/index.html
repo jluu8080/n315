@@ -24,10 +24,100 @@
         </nav>
     </header>
 
-    <main>
+    <main class="app">
+        <div class="newSnippetDiv">
+            <input type="button" id="newSnippetBtn"  value="New Snippet" onclick="">
+        </div>
+
+        <section class="left_RightSections">
+            <div class="leftDiv">
+                
+                <div class="tableOfContents"></div>
+            </div>
+
+            <div class="rightDiv">
+
+                <!-- <div class="newSnippetDiv">
+                <input type="button" id="newSnippetBtn"  value="New Snippet" onclick="">
+                </div> -->
+                
+                <div class="newCodeSnippetForm">
+
+                    <div class="titleLanguageDiv">
+
+                        <div class="titleInputDiv">
+                            <p>Snippet Title:</p>
+                            <input type="text" id="snippetTitleInput">
+                        </div>
+
+                        <div class="langInputDiv">
+                            <p>Lanuguage:</p>
+                            <input type="text" id="langInput">
+                        </div>
+
+                    </div>
+
+                    <div class="codeSnippet_codeTitle">
+                        <p>Code Title:</p>
+                        <input type="text" id="codeTitleInput">
+                    </div>
+
+                    <div class="codeSnippet_Desc">
+                        <p>What it does:</p>
+                        <textarea name="" id="codeDesc"></textarea>
+                    </div>
+
+                    <div class="codeSnippet_Code">
+                        <p>Code Snippet</p>
+                        <textarea name="" id="code"></textarea>
+                    </div>
+
+                    <div class="codeSnippet_Output">
+                        <p>Output</p>
+                        <textarea name="" id="output"></textarea>
+                    </div>
+
+                    <div class="newCodeSnippetFormBtns">
+                        <input type="button" id="saveSnippetBtn" value="Save Snippet">
+
+                        <input type="button" id="cancelSnippetBtn" value="Cancel Snippet">
+                    </div>
+                </div>
+
+                <div class="codeSnippetView">
+                    <div class="langDiv">
+                        <p class="html">zxczczxczxc</p>
+                    </div>
+
+                    <p class="codeSnippetTitle">asdasdasd</p>
+
+                    <p class="codeSnippetDesc">qweqweqweqwe</p>
+                
+                    <div class="codeSnippetEntry">
+                        <div class="codeTitleDiv">
+                            <p class="codeItselfTitle">12312312312</p>
+                        </div>
+
+                        <div class="codeOutputDiv">
+                            <p class="outputTitle">OUTPUT</p>
+                            
+                            <p class="codeSnippet">sadasdasdasd</p>
+                        </div>
+
+                        <div class="codeSnippetBtns">
+                            <input type="button" id="copySnippet" value="Copy Code">
+
+                            <input type="button" id="editSnippet" value="Edit">
+
+                            <input type="button" id="deleteSnippet" value="Delete">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 
-    <script type="module" src="app/app.js"></script>
+    <script type="module" src="src/app.js"></script>
 </body>
 </html>

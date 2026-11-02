@@ -44,8 +44,11 @@
                 background-color: aliceblue;
                 height: 100px;
                 width: 100%;
+                white-space: pre-wrap; 
 
-                font-size: 18px;
+                font-size: 14px;
+                padding-top:2px;
+                padding-left:5px;
 
             }
         }
@@ -56,19 +59,43 @@
             /* background-color: lightgray; */
 
             width:100%;
+            min-height:100px;
             margin-top:20px;
 
-
             border: 1px solid;
+            padding: 10px;
             
-            p
+            .workLogEntry
             {
-                margin:0;
-                padding:10px;
+                // margin-bottom:20px;
+                padding-top:10px;
+                padding-bottom:10px;
 
-                white-space:pre-wrap;
-                font-size: 18px;
+                border-bottom: 1px dashed black;
+                
+                p
+                {
+                    margin:0;
+                    padding:0;
+                }
+                
+                .entryNum
+                {
+                    margin-bottom: 15px;
+                }
 
+                #entryDate
+                {
+                    font-weight: bold;
+                }
+
+                #entryDesc
+                {
+                    margin-top:1px;
+                    white-space:pre-wrap;
+                    font-size: 16px;
+
+                }
             }
 
         }
