@@ -3,13 +3,10 @@ import { loadPage } from "./model/model";
 
 function changeRoute()
 {
-  let hashTag = window.location.hash;
-  let pageID = hashTag.replace("#","");
-
-  loadPage(pageID || "home");
-  console.log(pageID);
+  const pageID = window.location.hash.replace("#", "") || "home";
 
   document.body.className = pageID;
+  loadPage(pageID);
 }
 
 function initApp()
@@ -19,7 +16,6 @@ function initApp()
 }
 
 initApp();
-document.querySelector('#app').innerHTML = ``;
 
 
 //Hamburger Code
