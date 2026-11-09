@@ -1,15 +1,24 @@
 # Homework 6
 
-**Web 4 link:** https://in-info-web4.luddy.indianapolis.iu.edu/~jasoluu/n315/homework6/
+**Web 4 link:** https://in-info-web4.luddy.indianapolis.iu.edu/~jasoluu/n315/homework7/dist/
 
-You must create the login and home pages from the Jungle Cook prototype. This page must look identical to the prototype on all media. Laptop, Tablet, and Mobile. You must also have the hamburger menu working in your project.
+## Overview
+This project makes the login page from the Jungle Cook prototype work with Firebase Authentication. Users can create an account and sign in with an email and password, and the navigation updates when a user is logged in.
 
-Remember that this will be a dynamic site at the end to plan your project accordingly.
+## Features
+- Login page built from the Jungle Cook prototype, responsive across all screen sizes
+- Working desktop navigation and mobile (hamburger) menu
+- Sign up with email and password using Firebase Authentication
+- Sign in and sign out with email and password
+- Navigation updates based on login state and stays correct after a page refresh
 
-## Instructions
+## Built With
+- HTML, SCSS, JavaScript
+- Vite
+- Firebase Authentication
 
-- You must create the home and login page from the Jungle Cook prototype, found in the Figma design given in class.
-- Your home and login page must look identical to the prototype in all media, meaning it must be responsive.
-- When it is completely finished, you need to think about this being a fully dynamic site, so set it up accordingly.
-- You must have the mobile menu working as well as the normal menu.
-- Upload this to the web 4 server and Github and submit the Github link to this project.
+## Running Locally
+1. Clone the repo and open the `homework7/homework7` folder
+2. Run `npm install`
+3. Create a `.env` file in the project root with your Firebase config values (see `src/firebase.js` for the variable names)
+4. Run `npm run dev`
