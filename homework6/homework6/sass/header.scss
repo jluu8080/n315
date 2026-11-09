@@ -14,10 +14,8 @@ header
     nav
     {
         // background-color: beige;
-        width:100%;
-
-        padding-left: 50px;
-        padding-right: 50px;
+        width:960px;
+        margin: auto;
 
         display: flex;
         justify-content: space-between;
@@ -120,7 +118,7 @@ header
                 text-underline-offset: 6.5px;
             }
 
-            .loginBtn
+            .headerBtn
             {
                 display: flex;
                 justify-content: center;
@@ -137,11 +135,7 @@ header
                 font-size: 25px;
                 font-weight: 400;
 
-                p
-                {
-                    margin:0;
-                    padding:0;
-                }
+                border: 1px solid transparent;
 
                 :hover
                 {

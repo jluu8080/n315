@@ -28,9 +28,7 @@
           <a href="#createRecipe">Create Recipe</a>
 
           <a href="#login">
-            <div class="loginBtn">
-              <p>Login</p>
-            </div>
+            <button class="headerBtn">Login</button>
           </a>
         </div>
 
@@ -44,6 +42,71 @@
     </header>
 
     <div id="app">
+      <!-- <section class="recipePage">
+        <p class="recipeHeader">Recipes: Try some today!</p>
+
+        <div class="recipesContainer">
+          <div class="recipeCard">
+            <div class="recipeCard_img"></div>
+
+            <div class="recipeInfo">
+              <p id="recipeName">Supreme Pizza</p>
+
+              <p class="recipeDesc">Make pizza night super duper out of this world with homemade pizza. This recipe is supreme with vegetables and two types of meat. Yum!</p>
+
+              <div class="recipeTime">
+                <div class="clockIcon"></div>
+
+                <p class="time">1h 24min</p>
+              </div>
+
+              <div class="recipteServings">
+                <div class="servingIcon"></div>
+                
+                <p class="servings">4 Servings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- I will merge it up above but I want to single them up for sass targetting -->
+      <section class="recipePage_loggedIn">
+        <p class="recipeHeader">Hey Michael, here are your recipes!</p>
+
+        <div class="recipesContainer">
+          <div class="recipeCard">
+            <div class="recipeCard_img">
+              <input type="button" value="View" onclick="" id="viewBtn">
+            </div>
+
+            <div class="recipeInfo">
+              <p id="recipeName">Supreme Pizza</p>
+
+              <p class="recipeDesc">Make pizza night super duper out of this world with homemade pizza. This recipe is supreme with vegetables and two types of meat. Yum!</p>
+
+              <div class="recipeTime">
+                <div class="clockIcon"></div>
+
+                <p class="time">1h 24min</p>
+              </div>
+
+              <div class="recipteServings">
+                <div class="servingIcon"></div>
+                
+                <p class="servings">4 Servings</p>
+              </div>
+            </div>
+
+            <!-- Might need to move the reciptes outside -->
+            <div class="recipeBtns">
+                <input type="button" value="Edit Recipe" onclick="" id="editRecipeBtn">
+
+                <input type="button" value="Delete" onclick="" id="deleteRecipeBtn">
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <footer>

@@ -3,6 +3,7 @@
 
 import { clickedId, CodeSnippet, codeSnippetList, deleteSnippet, pushCodeSnippet, setClickedId } from "./cs_Manager.js";
 
+//Done and should be functional
 export const newSnippetBtnHander = (e) =>
 {
     //Clears all the inputs
@@ -12,17 +13,17 @@ export const newSnippetBtnHander = (e) =>
     document.querySelector("#codeDesc").value = "";
     document.querySelector("#output").value = "";
 
-    // let cs_snippetTitle = "asddsadads";//document.querySelector("#snippetTitleInput").value;
+    let cs_snippetTitle = "asddsadads";//document.querySelector("#snippetTitleInput").value;
 
-    // let cs_codeTitle = "zxczczxczcz";//document.querySelector("#codeTitleInput").value;
+    let cs_codeTitle = "zxczczxczcz";//document.querySelector("#codeTitleInput").value;
 
-    // let cs_language = "qwewqeqew";//document.querySelector("#langInput").value;
+    let cs_language = "qwewqeqew";//document.querySelector("#langInput").value;
 
-    // let cs_desc = "1321312312312";//document.querySelector("#codeDesc").value;
+    let cs_desc = "1321312312312";//document.querySelector("#codeDesc").value;
 
-    // let cs_code = "bvnvbnvbnvnv";//document.querySelector("#code").value;
+    let cs_code = "bvnvbnvbnvnv";//document.querySelector("#code").value;
 
-    // let cs_output = "hkjhkhjkhjk";//document.querySelector("#output").value;
+    let cs_output = "hkjhkhjkhjk";//document.querySelector("#output").value;
 
     const c = new CodeSnippet(cs_snippetTitle, cs_codeTitle, cs_language, cs_desc, cs_code, cs_output);
 
@@ -49,6 +50,7 @@ export const copySnippetBtnHandler = (e) =>
 }
 
 //Done//
+//Working on the styling
 export const editSnippetBtnHandler = (e) =>
 {
     e.preventDefault();

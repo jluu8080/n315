@@ -9,12 +9,12 @@ export default function Login()
 
           <div class="email">
             <p>Email Address</p>
-            <input type="email" id="emailInput">
+            <input type="email" id="emailInput_login">
           </div>
 
           <div class="password">
             <p>Password</p>
-            <input type="password">
+            <input type="password" id ="passwordInput_login">
           </div>
 
           <!-- <div class="signUpBtn">
@@ -29,22 +29,22 @@ export default function Login()
         
           <div class="firstName">
             <p>First Name</p>
-            <input type="text">
+            <input type="text" id="firstName">
           </div>
 
           <div class="lastName">
             <p>Last Name</p>
-            <input type="text">
+            <input type="text" id="lastName">
           </div>
           
           <div class="email">
             <p>Email</p>
-            <input type="email">
+            <input type="email" id="emailInput_signup">
           </div>
 
           <div class="password">
             <p>Password</p>
-            <input type="password">
+            <input type="password" id="passwordInput_signup">
           </div>
 
           <input type="button" value="Sign Up" onclick="" id="signUpBtn">

@@ -1,0 +1,88 @@
+.hero
+{
+    width:100%;
+    height:100%;   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    .circlesGroup
+    {
+        position: relative;
+        
+        width: 358px;
+        height: 358px;
+
+        .circle_yellow_big
+        {
+            position:absolute;
+            bottom: 50px;
+            z-index:1;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #FFD972;
+            box-shadow: 0px 10px 3px 0px #00000029;
+
+
+            width:358px;
+            height:358px;
+            border-radius: 50%;
+
+            .logoName_p
+            {
+                text-align: center;
+                font-family: caveat_regular;
+                font-size: 24px;
+            }
+
+            p
+            {
+                font-family: lato_regular;
+                font-size: 13px;
+                width: 165px;
+            }
+
+        }
+
+        .circle_pink_big
+        {
+            position: absolute;
+            top: -85px;
+            left: 275px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #FCBCB8;
+            box-shadow: 0px 10px 3px 0px #00000029;
+
+
+            width:168px;
+            height:168px;
+            border-radius: 50%;
+
+            p
+            {
+                font-family: lato_regular;
+
+                text-align: center;
+                font-size:10px;
+                font-weight: 400;
+                width:105px;
+            }
+        }
+    }
+
+    @media (max-width: 600px)
+    {
+        .circlesGroup
+        {
+            transform: translateX(-45px) scale(0.62);
+        }
+    }
+}
